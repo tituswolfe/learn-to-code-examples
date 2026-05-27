@@ -17,7 +17,6 @@ package xyz.tituswolfe.robotics;
 public class SmartVacuum {
     final static int distanceThreshold = 20;
 
-
     public int pickDirection(int frontDistance, int leftDistance, int rightDistance) {
         boolean isFrontBlocked = frontDistance < distanceThreshold;
         boolean isLeftBlocked = leftDistance < distanceThreshold;
