@@ -1,12 +1,12 @@
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 import static org.junit.jupiter.api.Assertions.*;
-import xyz.tituswolfe.robotics.SmartVacuum;
+import xyz.tituswolfe.robotics.solutions.SmartVacuumSolution;
 
 import java.util.Random;
 
 public class SmartVacuumTests {
-    SmartVacuum smartVacuum;
+    SmartVacuumSolution smartVacuum;
     final Random random = new Random();
     final int max = 40;
     final int min = 1;
@@ -14,7 +14,7 @@ public class SmartVacuumTests {
 
     @BeforeEach
     void setUp() {
-        smartVacuum = new SmartVacuum();
+        smartVacuum = new SmartVacuumSolution();
     }
 
     @Test

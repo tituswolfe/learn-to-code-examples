@@ -1,4 +1,4 @@
-package xyz.tituswolfe.robotics;
+package xyz.tituswolfe.robotics.solutions;
 
 // - Scenario -
 // You are programing a smart vacuum.
@@ -14,7 +14,7 @@ package xyz.tituswolfe.robotics;
 // right = 2
 // backwards = 3;
 
-public class SmartVacuum {
+public class SmartVacuumSolution {
     final static int distanceThreshold = 20;
 
     public int pickDirection(int frontDistance, int leftDistance, int rightDistance) {
